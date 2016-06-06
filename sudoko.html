@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="sudoko.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="suduko.js"></script>
+</head>
+<body>
+<div class = 'head addred'>Mike's Sudoku Solver</div>
+
+    <div class="board">
+        <table id = 'grid'>
+            <colgroup><col><col><col>
+            <colgroup><col><col><col>
+            <colgroup><col><col><col>
+            <tbody id = "body1">
+            <tr id = 'tr1'></tr>
+            <tr id = 'tr2'></tr>
+            <tr id = 'tr3'></tr>
+            <tbody id = 'body2'>
+            <tr id = 'tr4'></tr>
+            <tr id = 'tr5'></tr>
+            <tr id = 'tr6'></tr>
+            <tbody id = 'body3'>
+            <tr id = 'tr7'></tr>
+            <tr id = 'tr8'></tr>
+            <tr id = 'tr9'></tr>
+
+        </table>
+
+    </div>
+    <div id="buttons">
+        <button id="solve">Solve</button>
+        <button id="clear">Clear</button>
+        <button id = "gen">Gen</button>
+    </div>
+
+
+</body>
+</html>
