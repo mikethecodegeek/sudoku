@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="sudoko.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <script src="jquery-1.11.3.min.js"></script>
     <script src="suduko.js"></script>
 </head>
 <body>
-<div class = 'head addred'>Mike's Sudoku Solver</div>
+
+<nav class = 'head'>Mike's Sudoku Solver</nav>
 
     <div class="board">
         <table id = 'grid'>
@@ -33,9 +36,9 @@
 
     </div>
     <div id="buttons">
-        <button id="solve">Solve</button>
-        <button id="clear">Clear</button>
-        <button id = "gen">Gen</button>
+        <button class='btn btn-lg' id="solve">Solve Puzzle</button>
+        <button class='btn btn-lg' id="clear">Clear</button>
+        <button class='btn btn-lg' id = "gen">New Puzzle</button>
     </div>
 
 
