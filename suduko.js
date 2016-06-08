@@ -307,7 +307,7 @@
                 displayBoard();
                 var yy = returnBold();
                 for (var countcount = 0; countcount < yy.length; countcount++) {
-                    $('#sq' + [yy[countcount]]).addClass('addBold addShade');
+                    $('#sq' + [yy[countcount]]).addClass('addShade');
                 }
             }
         });
